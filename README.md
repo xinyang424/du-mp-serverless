@@ -1,1 +1,3 @@
-# du-mp-serverless
+## 介绍
+
+微信小程序DU后台服务
