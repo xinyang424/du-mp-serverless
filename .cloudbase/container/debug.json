@@ -1,5 +1,12 @@
 {
-  "containers": [],
+  "containers": [
+    {
+      "name": "du-mp-serverless",
+      "domain": "",
+      "ip": "",
+      "containerId": "a552387cdd3c924a72032d87094f4196bf9cfd337522bd2af262a37d099b0249"
+    }
+  ],
   "config": {
     "du-mp-serverless": {
       "containerPort": 80,
