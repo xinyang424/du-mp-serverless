@@ -4,7 +4,8 @@
   "description": "微信小程序'DU 木土'微信云托管serverless",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.ts"
+    "start": "nodemon index.ts",
+    "serve": "nodemon /app/index.ts"
   },
   "author": "coder-new-web",
   "license": "Apache-2.0",
