@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.ts",
-    "serve": "nodemon /app/index.ts"
+    "serve": "cd /app && nodemon index.ts"
   },
   "author": "coder-new-web",
   "license": "Apache-2.0",
