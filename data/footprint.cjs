@@ -1,5 +1,4 @@
-import type { Footprint } from "../type";
-const footprint: Array<Footprint> = [
+const footprint = [
   {
     id: 1,
     name: "乐山大佛风景区",
@@ -102,4 +101,4 @@ const footprint: Array<Footprint> = [
   },
 ];
 
-export { footprint };
+module.exports = footprint;

@@ -2,9 +2,9 @@
   "containers": [
     {
       "name": "du-mp-serverless",
+      "containerId": "33d3c7d38c8a1e500f7dd85867f484c60c7a06675f40f972293d07822765a284",
       "domain": "",
-      "ip": "",
-      "containerId": "a552387cdd3c924a72032d87094f4196bf9cfd337522bd2af262a37d099b0249"
+      "ip": ""
     }
   ],
   "config": {

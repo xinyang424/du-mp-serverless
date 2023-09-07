@@ -1,14 +1,16 @@
-import express, { Express } from "express";
-import cors from "cors";
-import homeRouter from "./router/home";
-const app: Express = express();
+const express = require("express");
+const cors = require("cors");
+const homeRouter = require("./router/home.cjs");
+
+const app = express();
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cors());
 
 app.use("/home", homeRouter);
-const port = process.env.PORT || 80;
+
+const port = 80;
 
 app.listen(port, () => {
   console.log("启动成功", port);

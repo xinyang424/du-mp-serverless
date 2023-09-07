@@ -1,6 +1,5 @@
-import type { GraphicCardData } from "../type";
-import { Storage_Bucket_Url } from "../config";
-const trends: Array<GraphicCardData> = [
+const Storage_Bucket_Url = require("../config/url.cjs");
+const trends = [
   {
     id: 1,
     avatar: Storage_Bucket_Url + "/avatar/xinyang.jpg",
@@ -166,4 +165,4 @@ const trends: Array<GraphicCardData> = [
   },
 ];
 
-export { trends };
+module.exports = trends;

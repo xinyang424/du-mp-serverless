@@ -6,9 +6,13 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# 本地调试生成文件
 docker-compose.yml
-
 Dockerfile.development
+.cloudbase
+
+
+package-lock.json
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json

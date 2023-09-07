@@ -1,6 +1,4 @@
-import type { Menu } from "../type";
-
-const menu: Array<Menu> = [
+const menu = [
   {
     id: "1",
     type: "🥗炒菜",
@@ -123,4 +121,4 @@ const menu: Array<Menu> = [
   },
 ];
 
-export { menu };
+module.exports = menu;

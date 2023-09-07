@@ -1,7 +1,4 @@
-const function_docs: Array<{
-  title: string;
-  content: string;
-}> = [
+const function_docs = [
   {
     title: "碎片界面",
     content: "该页面类似朋友圈的功能，现已有功能仅支持开发者直接修改数据添加动态更新至页面，后续将支持特殊身份的用户发布动态。如条件、时间还会支持所有用户点赞、查看点赞总数、查看浏览量总数、进行评论等功能。",
@@ -24,4 +21,4 @@ const function_docs: Array<{
   },
 ];
 
-export { function_docs };
+module.exports = function_docs;
