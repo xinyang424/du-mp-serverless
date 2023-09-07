@@ -161,7 +161,24 @@ const trends = [
     tags: ["美式"],
     content: "杨先生和杜女士",
     images: [Storage_Bucket_Url + "/2023/08-31(1).jpg", Storage_Bucket_Url + "/2023/08-31(2).jpg", Storage_Bucket_Url + "/2023/08-31(3).jpg"],
-    hidden: true,
+  },
+  {
+    id: 19,
+    avatar: Storage_Bucket_Url + "/avatar/xinyang.jpg",
+    title: "杨不旧",
+    time: "2023年09月02日",
+    tags: ["周末"],
+    content: "周末在家闭门投喂。",
+    images: [Storage_Bucket_Url + "/2023/09-02(1).jpg", Storage_Bucket_Url + "/2023/09-02(2).jpg"],
+  },
+  {
+    id: 20,
+    avatar: Storage_Bucket_Url + "/avatar/xinyang.jpg",
+    title: "杨不旧",
+    time: "2023年09月04日",
+    tags: ["周一"],
+    content: "打卡韩国部队火锅——金富贵，这家服务是真不错的。",
+    images: [Storage_Bucket_Url + "/2023/09-04(1).jpg", Storage_Bucket_Url + "/2023/09-04(2).jpg", Storage_Bucket_Url + "/2023/09-04(3).jpg"],
   },
 ];
 

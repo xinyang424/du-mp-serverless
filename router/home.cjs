@@ -9,10 +9,6 @@ const mp_config = require("../config/mp-config.cjs");
 
 const router = express.Router();
 
-router.get("/hello", function (_, res) {
-  return res.send("你好呀，乖乖，么么么么么叽~");
-});
-
 router.get("/getdata", function (_, res) {
   return res.send({
     code: 200,
