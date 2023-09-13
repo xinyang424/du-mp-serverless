@@ -198,6 +198,24 @@ const trends = [
     content: "九月九号，久久在一起。乐山站：刘四娘翘脚牛肉、鞠婆婆绵绵冰、小豆海棠、樂山糖水、英子油炸、苏稽古镇、尹藤洋华堂、世豪广场；回来的时候下雨、吹风、打雷，高铁延点24分钟，值得记录的一天。",
     images: [Storage_Bucket_Url + "/2023/09-09(1).jpg", Storage_Bucket_Url + "/2023/09-09(2).jpg", Storage_Bucket_Url + "/2023/09-09(3).jpg"],
   },
+  {
+    id: 23,
+    avatar: Storage_Bucket_Url + "/avatar/xinyang.jpg",
+    title: "杨不旧",
+    time: "2023年09月11日",
+    tags: ["干饭"],
+    content: "曾三线米线嗦粉",
+    images: [Storage_Bucket_Url + "/2023/09-11(1).jpg"],
+  },
+  {
+    id: 24,
+    avatar: Storage_Bucket_Url + "/avatar/xinyang.jpg",
+    title: "杨不旧",
+    time: "2023年09月12日",
+    tags: ["干饭"],
+    content: "斗鸡鸡公煲，芜湖~",
+    images: [Storage_Bucket_Url + "/2023/09-12(1).jpg"],
+  },
 ];
 
 module.exports = trends;
