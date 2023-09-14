@@ -9,7 +9,7 @@ const mp_config = require("../config/mp-config.cjs");
 
 const router = express.Router();
 
-router.get("/getdata", function (_, res) {
+router.get("/getdata", function (req, res) {
   return res.send({
     code: 200,
     errMsg: "request:ok",
@@ -19,6 +19,7 @@ router.get("/getdata", function (_, res) {
       menu: [...menu],
       openid: openid,
       function_docs: function_docs,
+      user_openid: req.headers["x-wx-source"] ? req.headers["x-wx-openid"] : "",
     },
   });
 });
