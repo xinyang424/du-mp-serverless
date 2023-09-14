@@ -216,6 +216,15 @@ const trends = [
     content: "斗鸡鸡公煲，芜湖~",
     images: [Storage_Bucket_Url + "/2023/09-12(1).jpg"],
   },
+  {
+    id: 25,
+    avatar: Storage_Bucket_Url + "/avatar/xinyang.jpg",
+    title: "杨不旧",
+    time: "2023年09月13日",
+    tags: ["干饭"],
+    content: "煎饼果子、牛肉烩面、鸡蛋炒拉面、冰糖葫芦",
+    images: [Storage_Bucket_Url + "/2023/09-13(1).jpg", Storage_Bucket_Url + "/2023/09-13(2).jpg", Storage_Bucket_Url + "/2023/09-13(3).jpg", Storage_Bucket_Url + "/2023/09-13(4).jpg", Storage_Bucket_Url + "/2023/09-13(5).jpg"],
+  },
 ];
 
 module.exports = trends;
