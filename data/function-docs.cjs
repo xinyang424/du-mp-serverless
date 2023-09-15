@@ -1,7 +1,8 @@
 const function_docs = [
   {
     title: "写在前面",
-    content: "此小程序采用uts开发。uts全称uni type script，它是一门跨平台、高性能、强类型的现代编程语言。核心技术为vue3 + ts + pinia + scss，工具链采用vite进行打包构建",
+    content:
+      "此小程序采用uts开发。uts全称uni type script，它是一门跨平台、高性能、强类型的现代编程语言。核心技术为vue3 + ts + pinia + scss，工具链采用vite进行打包构建。后端采用express(commonjs)部署在微信云托管构建后台服务。数据库提供由微信云托管提供服务，图片资源托管平台由腾讯云提供对象存储服务。",
   },
   {
     title: "碎片界面",
