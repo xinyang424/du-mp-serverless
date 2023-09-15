@@ -5,7 +5,7 @@ const menu = require("../data/menu.cjs");
 const openid = require("../data/openid.cjs");
 const function_docs = require("../data/function-docs.cjs");
 const mp_config = require("../config/mp-config.cjs");
-const axios = require("axios");
+// const axios = require("axios");
 const router = express.Router();
 
 router.get("/getdata", function (req, res) {
@@ -23,38 +23,38 @@ router.get("/getdata", function (req, res) {
   });
 });
 
-router.post("/getuseropenid", (req, res) => {
-  axios
-    .get("https://api.weixin.qq.com/sns/jscode2session", {
-      params: {
-        appid: appid,
-        secret: secret,
-        appid: mp_config.appid,
-        secret: mp_config.secret,
-        js_code: req.body.js_code,
-        grant_type: "authorization_code",
-      },
-    })
-    .then(response => {
-      if (response.data.errcode) {
-        res.send({
-          code: 500,
-          errMsg: response.data.errmsg,
-          data: {},
-        });
-      } else {
-        res.send({
-          code: 200,
-          errMsg: "request:ok",
-          data: response.data,
-        });
-      }
-    })
-    .catch(error => {
-      res.send({
-        code: 500,
-        errMsg: error,
-      });
-    });
-});
+// router.post("/getuseropenid", (req, res) => {
+//   axios
+//     .get("https://api.weixin.qq.com/sns/jscode2session", {
+//       params: {
+//         appid: appid,
+//         secret: secret,
+//         appid: mp_config.appid,
+//         secret: mp_config.secret,
+//         js_code: req.body.js_code,
+//         grant_type: "authorization_code",
+//       },
+//     })
+//     .then(response => {
+//       if (response.data.errcode) {
+//         res.send({
+//           code: 500,
+//           errMsg: response.data.errmsg,
+//           data: {},
+//         });
+//       } else {
+//         res.send({
+//           code: 200,
+//           errMsg: "request:ok",
+//           data: response.data,
+//         });
+//       }
+//     })
+//     .catch(error => {
+//       res.send({
+//         code: 500,
+//         errMsg: error,
+//       });
+//     });
+// });
 module.exports = router;
