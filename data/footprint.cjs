@@ -131,6 +131,16 @@ const footprint = [
   },
   {
     id: 14,
+    name: "莱蒙都会",
+    address: "四川省成都市武侯区二环路南四段51号",
+    longitude: 104.0337,
+    latitude: 30.631538,
+    iconPath: "/static/icon_img/location.png",
+    width: 50,
+    height: 50,
+  },
+  {
+    id: 15,
     name: "伊藤洋华堂(乐山店)",
     address: "四川省乐山市市中区通江街道鹤翔路8号",
     longitude: 103.728156,
