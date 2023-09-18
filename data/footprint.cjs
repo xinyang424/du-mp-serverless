@@ -149,6 +149,17 @@ const footprint = [
     width: 50,
     height: 50,
   },
+  // 未加入数据库
+  {
+    id: 16,
+    name: "神仙树·缤纷",
+    address: "四川省成都市武侯区新义西街96号",
+    longitude: 104.0386,
+    latitude: 30.607798,
+    iconPath: "/static/icon_img/location.png",
+    width: 50,
+    height: 50,
+  },
 ];
 
 module.exports = footprint;
