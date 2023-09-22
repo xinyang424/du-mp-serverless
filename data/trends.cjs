@@ -345,7 +345,7 @@ const trends = [
     title: "杨不旧",
     time: "2023年09月22日",
     tags: ["干饭"],
-    content: "孜然牛肉盖浇饭和牛肉炒饭",
+    content: "孜然牛肉盖浇饭、牛肉炒饭与我们的臭美照片",
     images: [Storage_Bucket_Url + "/2023/09-22(1).jpg", Storage_Bucket_Url + "/2023/09-22(2).jpg", Storage_Bucket_Url + "/2023/09-22(3).jpg", Storage_Bucket_Url + "/2023/09-22(4).jpg"],
   },
 ];
