@@ -5,7 +5,8 @@
   "type": "commonjs",
   "main": "index.cjs",
   "scripts": {
-    "start": "node index.cjs"
+    "start": "cross-env NODE_ENV=cloud node index.cjs",
+    "serve": "cross-env NODE_ENV=local nodemon index.cjs"
   },
   "author": "coder-new-web",
   "license": "Apache-2.0",
@@ -17,5 +18,8 @@
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
